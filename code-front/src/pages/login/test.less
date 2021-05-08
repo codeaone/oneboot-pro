@@ -1,0 +1,63 @@
+@import '~antd/es/style/themes/default.less';
+
+.login-container {
+  background-image: url('/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+
+  .media-login-wrap {
+    width: 100%;
+    padding-top: 100px;
+    overflow: hidden;
+    .login-title {
+      line-height: 96px;
+      height: 96px;
+      /* font-size: 22px; */
+      color: #fff;
+      /* width: 330px; */
+      text-align: center;
+      margin: 0 auto;
+    }
+    .main-box {
+      width: 720px;
+      margin: 0 auto;
+      height: 360px;
+      display: flex;
+      border-radius: 10px;
+      background: #fff;
+      overflow: hidden;
+
+      .main-left-logo {
+        width: 50%;
+        border-right: 1px solid #eee;
+        img {
+          width: 100%;
+        }
+      }
+
+      .main-right-form {
+        width: 50%;
+        padding: 25px;
+
+        .welcome {
+          color: #6f49fe;
+          margin: 20px 0;
+          margin-top: 10px;
+        }
+
+        input.ant-input {
+          padding-left: 20px;
+        }
+
+        .login-form-button {
+          width: 100%;
+          background-image: linear-gradient(to left, #8440fa, #4a55fe);
+          border: 0px solid transparent;
+          height: 40px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
